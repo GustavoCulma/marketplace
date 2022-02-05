@@ -1,0 +1,6 @@
+GET sin filtro
+http://api.marketplace.test/categories
+GET con filtro
+http://api.marketplace.test/categories?linkTo=url_category&equalTo=clothing-apparel
+GET Entre tablas relacionadas sin filtro
+http://api.marketplace.com/relations?rel=subcategories,categories&type=subcategory,category&orderBy=id_subcategory&orderMode=ASC&startAt=0&endAt=5
